@@ -1384,16 +1384,16 @@
     "ClickCount": 3,
     "PlayerName": "GoPlayer",
     "ShowTables": true,
-    "ShowUpdate": false,
-    "ShowFixtures": true,
+    "ShowUpdate": true,
+    "ShowFixtures": false,
     "PlayerPackage": "org.firetube.mediastream",
     "PlayericonUrl": "https://play-lh.googleusercontent.com/R6Xysk2Cs-jlS_CbdjjtXdnZjfXefz4LZ_Rgcpg1qAujC6jpfr9trr6o7RKPaISOoSQ0TgFow8ojQcbCMJ7LjA=w480-h960-rw",
     "UpdatePackage": "com.ukturksapp.fixturestandingni",
     "UpdateVersion": 1,
-    "ShowTvChannels": false,
-    "ShowLiveMatches": false,
-    "ShowCustomInterAds": false,
-    "PlayInExternalPlayer": false
+    "ShowTvChannels": true,
+    "ShowLiveMatches": true,
+    "ShowCustomInterAds": true,
+    "PlayInExternalPlayer": true
   },
   "CustomInterAds": [
     {
@@ -1718,7 +1718,80 @@
       "CountryName": "England",
       "Competitions": [
         {
-          "Fixtures": [],
+          "Fixtures": [
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Leeds United",
+              "HomeTeam": "Arsenal FC",
+              "MatchTime": "Sat, 12:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Brentford FC",
+              "HomeTeam": "Aston Villa",
+              "MatchTime": "Sat, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "AFC Bournemouth",
+              "HomeTeam": "Chelsea FC",
+              "MatchTime": "Sat, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Fulham FC",
+              "HomeTeam": "Ipswich Town",
+              "MatchTime": "Sat, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Brighton & Hove Albion",
+              "HomeTeam": "Sunderland AFC",
+              "MatchTime": "Sat, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Tottenham Hotspur",
+              "HomeTeam": "Manchester United",
+              "MatchTime": "Sat, 17:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Nottingham Forest",
+              "HomeTeam": "Crystal Palace",
+              "MatchTime": "Sun, 14:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Everton FC",
+              "HomeTeam": "Hull City",
+              "MatchTime": "Sun, 14:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Manchester City",
+              "HomeTeam": "Liverpool FC",
+              "MatchTime": "Sun, 16:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            }
+          ],
           "CompetitionName": "Premier League"
         }
       ]
@@ -1728,7 +1801,72 @@
       "CountryName": "Spain",
       "Competitions": [
         {
-          "Fixtures": [],
+          "Fixtures": [
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Athletic Bilbao",
+              "HomeTeam": "Rayo Vallecano",
+              "MatchTime": "Sat, 14:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Atletico Madrid",
+              "HomeTeam": "Deportivo Alaves",
+              "MatchTime": "Sat, 16:15",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Getafe CF",
+              "HomeTeam": "FC Barcelona",
+              "MatchTime": "Sat, 18:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Villarreal CF",
+              "HomeTeam": "Real Madrid",
+              "MatchTime": "Sat, 21:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "RC Celta de Vigo",
+              "HomeTeam": "Elche CF",
+              "MatchTime": "Sun, 14:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "RC Deportivo",
+              "HomeTeam": "Real Sociedad",
+              "MatchTime": "Sun, 16:15",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "CA Osasuna",
+              "HomeTeam": "Real Betis",
+              "MatchTime": "Sun, 18:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Valencia CF",
+              "HomeTeam": "Racing Santander",
+              "MatchTime": "Sun, 21:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            }
+          ],
           "CompetitionName": "La Liga"
         }
       ]
@@ -1738,7 +1876,72 @@
       "CountryName": "Italy",
       "Competitions": [
         {
-          "Fixtures": [],
+          "Fixtures": [
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "ACF Fiorentina",
+              "HomeTeam": "Genoa CFC",
+              "MatchTime": "Sat, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Parma Calcio",
+              "HomeTeam": "Inter Milano",
+              "MatchTime": "Sat, 18:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Frosinone Calcio",
+              "HomeTeam": "SSC Napoli",
+              "MatchTime": "Sat, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "AS Roma",
+              "HomeTeam": "Como 1907",
+              "MatchTime": "Sun, 12:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "AC Monza",
+              "HomeTeam": "Lazio Rome",
+              "MatchTime": "Sun, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Bologna FC",
+              "HomeTeam": "US Lecce",
+              "MatchTime": "Sun, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "AC Milan",
+              "HomeTeam": "Sassuolo Calcio",
+              "MatchTime": "Sun, 18:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Juventus Turin",
+              "HomeTeam": "Cagliari Calcio",
+              "MatchTime": "Sun, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            }
+          ],
           "CompetitionName": "Serie A"
         }
       ]
@@ -1748,7 +1951,72 @@
       "CountryName": "Germany",
       "Competitions": [
         {
-          "Fixtures": [],
+          "Fixtures": [
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Hamburger SV",
+              "HomeTeam": "TSG Hoffenheim",
+              "MatchTime": "Sat, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Bayern Munich",
+              "HomeTeam": "FC Augsburg",
+              "MatchTime": "Sat, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Bayer Leverkusen",
+              "HomeTeam": "FSV Mainz",
+              "MatchTime": "Sat, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "SV 07 Elversberg",
+              "HomeTeam": "Union Berlin",
+              "MatchTime": "Sat, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "VfB Stuttgart",
+              "HomeTeam": "SC Paderborn 07",
+              "MatchTime": "Sat, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Eintracht Frankfurt",
+              "HomeTeam": "RB Leipzig",
+              "MatchTime": "Sat, 18:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Borussia Monchengladbach",
+              "HomeTeam": "1. FC Cologne",
+              "MatchTime": "Sun, 15:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Schalke 04",
+              "HomeTeam": "SC Freiburg",
+              "MatchTime": "Sun, 17:30",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            }
+          ],
           "CompetitionName": "Bundesliga"
         }
       ]
@@ -1758,7 +2026,72 @@
       "CountryName": "France",
       "Competitions": [
         {
-          "Fixtures": [],
+          "Fixtures": [
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Le Havre AC",
+              "HomeTeam": "Lille OSC",
+              "MatchTime": "Sat, 17:15",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Angers SCO",
+              "HomeTeam": "Stade Brest 29",
+              "MatchTime": "Sat, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Paris FC",
+              "HomeTeam": "FC Lorient",
+              "MatchTime": "Sat, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Toulouse FC",
+              "HomeTeam": "AS Monaco",
+              "MatchTime": "Sat, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Le Mans FC",
+              "HomeTeam": "Paris Saint-Germain",
+              "MatchTime": "Sat, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Strasbourg Alsace",
+              "HomeTeam": "OGC Nice",
+              "MatchTime": "Sun, 15:00",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "AJ Auxerre",
+              "HomeTeam": "Stade Rennais FC",
+              "MatchTime": "Sun, 17:15",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            },
+            {
+              "Status": "Upcoming",
+              "AwayTeam": "Olympique Marseille",
+              "HomeTeam": "ESTAC Troyes",
+              "MatchTime": "Sun, 20:45",
+              "AwayTeamLogo": "",
+              "HomeTeamLogo": ""
+            }
+          ],
           "CompetitionName": "Ligue 1"
         }
       ]
